@@ -14,6 +14,7 @@
 		1DF7B0162182FA4400C8B915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7B0142182FA4400C8B915 /* LaunchScreen.storyboard */; };
 		1DF7B0212182FA4400C8B915 /* JenkinsStarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7B0202182FA4400C8B915 /* JenkinsStarterTests.swift */; };
 		1DF7B02C2182FA4400C8B915 /* JenkinsStarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7B02B2182FA4400C8B915 /* JenkinsStarterUITests.swift */; };
+		1DF7B03A2182FDA200C8B915 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7B0392182FDA200C8B915 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1DF7B0272182FA4400C8B915 /* JenkinsStarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsStarterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF7B02B2182FA4400C8B915 /* JenkinsStarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsStarterUITests.swift; sourceTree = "<group>"; };
 		1DF7B02D2182FA4400C8B915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF7B0392182FDA200C8B915 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1DF7B00B2182FA4300C8B915 /* AppDelegate.swift */,
 				1DF7B00D2182FA4300C8B915 /* ViewController.swift */,
+				1DF7B0392182FDA200C8B915 /* ViewModel.swift */,
 				1DF7B00F2182FA4300C8B915 /* Main.storyboard */,
 				1DF7B0122182FA4400C8B915 /* Assets.xcassets */,
 				1DF7B0142182FA4400C8B915 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DF7B00E2182FA4300C8B915 /* ViewController.swift in Sources */,
+				1DF7B03A2182FDA200C8B915 /* ViewModel.swift in Sources */,
 				1DF7B00C2182FA4300C8B915 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

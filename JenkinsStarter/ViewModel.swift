@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class ViewModel {
+    func getLabelText() -> String {
+        return "Hello World"
+    }
+}
