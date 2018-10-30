@@ -434,15 +434,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L435U89CV8;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LSVVD8ZPH6;
 				INFOPLIST_FILE = JenkinsStarter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.guru-ketepalle.JenkinsStarter";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizantmobilityenterprise.JenkinsStarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = CognizantEnterpriseMobility;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,15 +454,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L435U89CV8;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LSVVD8ZPH6;
 				INFOPLIST_FILE = JenkinsStarter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.guru-ketepalle.JenkinsStarter";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizantmobilityenterprise.JenkinsStarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = CognizantEnterpriseMobility;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
