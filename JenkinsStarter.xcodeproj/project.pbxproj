@@ -49,6 +49,7 @@
 		1DF7B02B2182FA4400C8B915 /* JenkinsStarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsStarterUITests.swift; sourceTree = "<group>"; };
 		1DF7B02D2182FA4400C8B915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DF7B0392182FDA200C8B915 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		29FF60B42188A87A004A37FE /* 54763f3e-f511-4a5c-8c5d-297fb34c2bd8.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = "54763f3e-f511-4a5c-8c5d-297fb34c2bd8.mobileprovision"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		1DF7AFFF2182FA4200C8B915 = {
 			isa = PBXGroup;
 			children = (
+				29FF60B42188A87A004A37FE /* 54763f3e-f511-4a5c-8c5d-297fb34c2bd8.mobileprovision */,
 				1DF7B00A2182FA4300C8B915 /* JenkinsStarter */,
 				1DF7B01F2182FA4400C8B915 /* JenkinsStarterTests */,
 				1DF7B02A2182FA4400C8B915 /* JenkinsStarterUITests */,
