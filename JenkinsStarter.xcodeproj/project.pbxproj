@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D377C8721916CD2000F998E /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 1D377C8621916CD2000F998E /* Jenkinsfile */; };
 		1DF7B00C2182FA4300C8B915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7B00B2182FA4300C8B915 /* AppDelegate.swift */; };
 		1DF7B00E2182FA4300C8B915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7B00D2182FA4300C8B915 /* ViewController.swift */; };
 		1DF7B0112182FA4300C8B915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7B00F2182FA4300C8B915 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D377C8621916CD2000F998E /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		1DF7B0082182FA4300C8B915 /* JenkinsStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF7B00B2182FA4300C8B915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DF7B00D2182FA4300C8B915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +51,6 @@
 		1DF7B02B2182FA4400C8B915 /* JenkinsStarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsStarterUITests.swift; sourceTree = "<group>"; };
 		1DF7B02D2182FA4400C8B915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DF7B0392182FDA200C8B915 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		29FF60B42188A87A004A37FE /* 54763f3e-f511-4a5c-8c5d-297fb34c2bd8.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = "54763f3e-f511-4a5c-8c5d-297fb34c2bd8.mobileprovision"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +81,7 @@
 		1DF7AFFF2182FA4200C8B915 = {
 			isa = PBXGroup;
 			children = (
-				29FF60B42188A87A004A37FE /* 54763f3e-f511-4a5c-8c5d-297fb34c2bd8.mobileprovision */,
+				1D377C8621916CD2000F998E /* Jenkinsfile */,
 				1DF7B00A2182FA4300C8B915 /* JenkinsStarter */,
 				1DF7B01F2182FA4400C8B915 /* JenkinsStarterTests */,
 				1DF7B02A2182FA4400C8B915 /* JenkinsStarterUITests */,
@@ -235,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DF7B0162182FA4400C8B915 /* LaunchScreen.storyboard in Resources */,
+				1D377C8721916CD2000F998E /* Jenkinsfile in Resources */,
 				1DF7B0132182FA4400C8B915 /* Assets.xcassets in Resources */,
 				1DF7B0112182FA4300C8B915 /* Main.storyboard in Resources */,
 			);
