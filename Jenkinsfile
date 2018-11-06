@@ -19,4 +19,11 @@ node{
     stage('Archieve') {
         sh "xcodebuild -scheme JenkinsStarter -sdk iphoneos -target JenkinsStarter -destination 'generic/platform=iOS' -archivePath export/JenkinsStarter.xcarchive archive DEVELOPMENT_TEAM='LSVVD8ZPH6' PROVISIONING_PROFILE='54763f3e-f511-4a5c-8c5d-297fb34c2bd8' CODE_SIGNING_REQUIRED=NO"
     }
+
+    stage('Extracting ipa') {
+        sh "security unlock-keychain -p admin"
+        sh "xcodebuild -exportArchive -archivePath export/JenkinsStarter.xcarchive \
+        -exportPath exportedIPA/ \
+        -exportOptionsPlist export/ExportOptions.plist"
+    }
 }
