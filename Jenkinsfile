@@ -21,9 +21,8 @@ node{
     }
 
     stage('Extracting ipa') {
-        sh "security unlock-keychain -p admin"
         sh "xcodebuild -exportArchive -archivePath export/JenkinsStarter.xcarchive \
-        -exportPath exportedIPA/ \
+        -exportPath ~/.jenkins/workspace/exportedIPA/JenkinsStarter.ipa \
         -exportOptionsPlist ~/.jenkins/workspace/CodeSigning/ExportOptions.plist"
     }
 
