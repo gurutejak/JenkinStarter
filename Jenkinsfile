@@ -24,7 +24,7 @@ node{
         sh "security unlock-keychain -p admin"
         sh "xcodebuild -exportArchive -archivePath export/JenkinsStarter.xcarchive \
         -exportPath exportedIPA/ \
-        -exportOptionsPlist ExportOptions.plist"
+        -exportOptionsPlist cd ~/ExportOptions.plist"
     }
 
     stage ('Uploading to Hockey'){
