@@ -19,7 +19,7 @@ class JenkinsStarterTests: XCTestCase {
     let vm = ViewModel()
     
     func testLabelText() {
-        let expectedText = "Hello World"
+        let expectedText = "Hello World1"
         let actualText = vm.getLabelText()
         XCTAssert(expectedText ==  actualText)
     }
