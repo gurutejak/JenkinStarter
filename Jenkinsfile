@@ -17,7 +17,7 @@ node{
     }
 
     stage('Test') {
-        sh "xcrun xcodebuild  -project JenkinsStarter.xcodeproj -scheme JenkinsStarterTests -destination 'generic/platform=iOS' test"
+        sh "xcrun xcodebuild  -project JenkinsStarter.xcodeproj -scheme JenkinsStarterTests -destination 'name=iPhone 7' test"
     }
 
     stage('Archieve') {
