@@ -22,11 +22,11 @@ node{
 
     stage('Extracting ipa') {
         sh "xcodebuild -exportArchive -archivePath export/JenkinsStarter.xcarchive \
-        -exportPath ~/.jenkins/workspace/exportedIPA/JenkinsStarter.ipa \
+        -exportPath exportedIPA/ \
         -exportOptionsPlist ~/.jenkins/workspace/CodeSigning/ExportOptions.plist"
     }
 
     stage ('Uploading to Hockey'){
-        hockeyApp applications: [[apiToken: '743d568b06a24060bb548614c1bcf4ad', downloadAllowed: true, filePath: '~/.jenkins/workspace/exportedIPA/JenkinsStarter.ipa', mandatory: false, notifyTeam: true, releaseNotesMethod: none(), uploadMethod: appCreation(false)]], debugMode: false, failGracefully: false
+        hockeyApp applications: [[apiToken: '743d568b06a24060bb548614c1bcf4ad', downloadAllowed: true, filePath: '**/JenkinsStarter.ipa', mandatory: false, notifyTeam: true, releaseNotesMethod: none(), uploadMethod: appCreation(false)]], debugMode: false, failGracefully: false
     }
 }
