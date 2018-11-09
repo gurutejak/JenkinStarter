@@ -13,7 +13,11 @@ node{
     }
 
     stage('Build') {
-        sh "xcrun xcodebuild  -project JenkinsStarter.xcodeproj -scheme JenkinsStarter -destination 'name=iPhone 7' clean build"
+        sh "xcrun xcodebuild  -project JenkinsStarter.xcodeproj -scheme JenkinsStarter -destination 'generic/platform=iOS' clean build"
+    }
+
+    stage('Test') {
+    sh "xcrun xcodebuild  -project JenkinsStarter.xcodeproj -scheme JenkinsStarter -destination 'generic/platform=iOS' test"
     }
 
     stage('Archieve') {
